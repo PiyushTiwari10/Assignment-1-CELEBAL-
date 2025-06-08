@@ -1,0 +1,73 @@
+.user-details-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.details-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detail-row {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-row h2 {
+  width: 100%;
+  color: #3498db;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.detail-label {
+  width: 40%;
+  font-weight: bold;
+  color: #555;
+}
+
+.detail-value {
+  width: 60%;
+  color: #333;
+}
+
+.back-button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 30px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #2980b9;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 100px;
+}
